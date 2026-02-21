@@ -8,7 +8,7 @@ import Skills from "./components/Skills";
 
 function App() {
   return (
-    <div className="bg-black text-white">
+    <div className="min-h-screen bg-black text-white">
       <Navbar />
       <Home />
       <About />
