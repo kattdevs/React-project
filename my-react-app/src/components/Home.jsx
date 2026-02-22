@@ -1,7 +1,8 @@
-import profilePic from '../assests/profile.jpg';
+import profilePic from '../assets/profile.jpg';
 
 const Home = () => {
     return (
+
         <section id="home" className="min-h-screen flex items-center justify-center px-6">
                 <div className="max-w-6xl w-full grid md:grid-cols-2 gap-12 items-center">
 
