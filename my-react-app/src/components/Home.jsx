@@ -1,4 +1,4 @@
-import profilePic from '../assests/KATLEGO.jpg';
+import profilePic from '../assests/profile.jpg';
 
 const Home = () => {
     return (
@@ -25,7 +25,7 @@ const Home = () => {
                     <div className="flex justify-center">
                         <div className="bg-white/5 backdrop-blur-xl p-4 rounded-2xl border border-white/10 shadow-2xl">
                         <img
-                        src={KATLEGO.jpg}
+                        src={profilePic}
                         alt="Katlego Twala"
                         className="w-[300px] h-[400px] object-cover rounded-xl"
                         />  
