@@ -14,11 +14,11 @@ const Navbar = () => {
                     key={link}
                     href={`#${link}`}
                     onClick={()=> setActive(link)}
-                    className={`uppercase px-6 text-sm tracking-wider rounded-full backdrop-blur-xl border border-white/10 bg-white/5 transition-all duration-300
+                    className={`uppercase px-6 text-sm tracking-wider rounded-full backdrop-blur-xl border border-rose-300/20 bg-rose-200/5 transition-all duration-300
                         ${
                             active === link
-                            ? "bg-white/15 border-white/20 shadow-[0_0_20px_rgba(255,255,255,0.4)] scale-110"
-                            : "hover: bg-white/10 hover:scale-110 hover:shadow-[0_0_15px_rgba(255,255,255,0.3)]"
+                            ? "bg-gradient-to-r from-rose-300/30 to-pink-300/30 shadow-[0_0_20px_rgba(244,114,182,0.5)] scale-110"
+                            : "hover: bg-rose-300/20 hover:scale-110 hover:shadow-[0_0_15px_rgba(244,114,182,0.4)]"
                         }`}
                     >
                     {link}
