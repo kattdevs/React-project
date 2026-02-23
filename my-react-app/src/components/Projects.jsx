@@ -31,7 +31,7 @@ const Projects = () => {
                     {projects.map((project, index) => (
                         <div 
                         key={index} 
-                        className="big-white/5 backdrop-blur-xl border border-white/10 p-8 rounded-2xl shadow-xl hover:-translate-y-2 transition duration-300">
+                        className="bg-gradient-to-br from-rose-200/5 to pink-300/10 backdrop-blur-xl border border-rose-300/20 p-8 rounded-2xl shadow-[0_0_30px_rgba(244,144,182,0.15)] transition duration-300">
                             <h3 className="text-xl font-semibold mb-4">
                                 {project.title}
                             </h3>
@@ -44,14 +44,14 @@ const Projects = () => {
                                 <a
                                     href={project.github}
                                     target="_blank"
-                                    className="text-white border border-white px-4 py-2 rounded-md hover:bg-white hover:text-black transition">
+                                    className="text-rose-200 border border-rose-300/20 px-4 py-2 rounded-md hover:bg-rose-300 hover:text-black transition">
                                     GitHub
                                     </a>
 
                                 <a
                                     href={project.live}
                                     target="_blank"
-                                    className="text-black bg-white px-4 py-2 rounded-md hover:bg-gray-300 transition"
+                                    className="bg-gradient-to-r from-rose-300 to-pink-400 text-black px-4 py-2 rounded-md hover:scale-105 transition"
                                     >
                                     Live
                                     </a>
