@@ -1,21 +1,21 @@
 const projects = [
     {
-        title: "Project 1",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        github: "https://via.placeholder.com/300x200",
-        live: " https://via.placeholder.com/300x200"
+        title: "Digital Clock",
+        description: "A stylish, interactive digital clock with theme switching and 12/24-hour toogle. Features real-time updates and responsive design",
+        github: "https://github.com/kattdevs/Digital-Clock",
+        live: " https://digital-clockapp.netlify.app/"
     },
     {
-        title: "Project 2",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        github: "https://via.placeholder.com/300x200",
-        live: " https://via.placeholder.com/300x200"
+        title: "Diamond Tech Website",
+        description: "A fully responsive recreation of an existing corporate website built using Bootstrap and custom CSS.",
+        github: "https://github.com/kattdevs/Diamond-Tech",
+        live: " https://keen-croissant-b67496.netlify.app"
     },
     {
-        title: "Project 3",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        github: "https://via.placeholder.com/300x200",
-        live: " https://via.placeholder.com/300x200"
+        title: "Interactive Quiz Game",
+        description: "A collaborative web-based quiz application featuring real-time scoring, counting timer functionality and dynamic question rendering",
+        github: "https://github.com/kattdevs/Quiz",
+        live: "https://quizprj.netlify.app"
     },
 ];
 
