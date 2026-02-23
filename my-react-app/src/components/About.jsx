@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section id="about" className="py-24 px-6">
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-16 items-center">
-            <div className="big-white/5 backdrop-blur-xl p-8 rounded-2xl border border-white/10 shadow-xl">
+            <div className="bg-gradient-to-br from-rose-200/5 to-pink-300/10 backdrop-blur-xl p-8 rounded-2xl border border-rose-300/20 shadow-[0_0_40px_rgba(244,144,182,0.15)]">
                 <h2 className="text-3xl font-serif mb-6">
                     About Me
                 </h2>
@@ -19,7 +19,7 @@ const About = () => {
                      Driven by curiosity and a deep love for technology, I am building a future I turn ideas into impactful solutions.
                 </p>
 
-                <a href={cvFile} download className="inline-block mt-8 px-6 py-3 bg-white text-black font-semibold rounded-lg hover:bg-gray-300 transition">
+                <a href={cvFile} download className="inline-block mt-8 px-6 py-3 bg-gradient-to-r from-rose-300 to-pink-400 text-black font-semibold rounded-lg hover:scale-105 hover:shadow-[0_0_20px_rgba(244,144,182,0.4)] transition duration-300">
                     Download CV
                 </a>
                 </div>
