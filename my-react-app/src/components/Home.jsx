@@ -10,7 +10,7 @@ const Home = () => {
                     <div>
                         <h2 className="text-5xl md:text-6xl font-serif leading-tight">
                             Hi, I'm <br/>
-                            <span className="text-white">KATLEGO TWALA</span>
+                            <span className="bg-gradient-to-r from-rose-300 via-pink-300 to-rose-400 bg-clip-text text-transparent">KATLEGO TWALA</span>
                         </h2>
 
                         <p className="mt-6 text-gray-400 text-lg">
@@ -24,7 +24,7 @@ const Home = () => {
 
                     {/*RIGHT SIDE - IMAGE*/}
                     <div className="flex justify-center">
-                        <div className="bg-white/5 backdrop-blur-xl p-4 rounded-2xl border border-white/10 shadow-2xl">
+                        <div className="bg-gradient-to-br from-rose-200/10 to-pink-300/10 backdrop-blur-xl p-4 rounded-2xl border border-rose-300/20 shadow-[0_0_40px_rgba(244,114,182,0.25)]">
                         <img
                         src={profilePic}
                         alt="Katlego Twala"
